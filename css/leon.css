@@ -7,7 +7,7 @@
     --secondary-color:hsl(200, 32%, 25%);
     --section-padding:60px;
     --secation-background: #f6f6f6;
-    --main-duration:0.3s;
+    --main-duration:0.5s;
 }
 *{
     -webkit-box-sizing: border-box;
@@ -25,11 +25,11 @@ body{
 /* small */
 @media (min-width:768px) {
     .container{
-        width: 750;
+        width: 750px;
     }
 }
 /* Medium */
-@media (min-width:px){
+@media (min-width:992px){
     .container{
         width: 970px;
     }
